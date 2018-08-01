@@ -45,6 +45,7 @@
                             <include>${project.build.finalName}.jar</include>
                         </resource>
                     </resources>
+                    <serverId>docker</serverId>
                 </configuration>
             </plugin>
         </plugins>
