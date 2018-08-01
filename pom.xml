@@ -35,7 +35,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>1.1.1</version>
                 <configuration>
-                    <imageName>192.168.1.4:7003/dockerMaven:1.0</imageName>
+                    <imageName>192.168.1.4:7003/dockermaven:1.0</imageName>
                     <baseImage>java</baseImage>
                     <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
                     <resources>
